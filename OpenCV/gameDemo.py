@@ -1,6 +1,6 @@
 import sys
 #Change the following line
-sys.path.append('C:\Python310\Lib\site-packages\cv2')
+sys.path.append('C:\Program Files\Python38')
 
 import numpy as np
 import cv2
@@ -66,7 +66,7 @@ if __name__ == '__main__':
     import sys
     try: video_src = sys.argv[1]
     #Changed video_src based off of webcam originally the value was 0.
-    except: video_src = 1
+    except: video_src = 0
     print ("sys.agrv: ", sys.argv, len(sys.argv))
     print ("sys.__doc__: ", __doc__)
     print (video_src)

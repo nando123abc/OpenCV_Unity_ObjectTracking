@@ -1,6 +1,6 @@
 import sys
 #Change the following line
-sys.path.append('C:\Python310\Lib\site-packages\cv2')
+sys.path.append('C:\Program Files\Python38')
 
 import numpy as np
 import cv2
